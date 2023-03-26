@@ -4,7 +4,7 @@
   "version": "0.01",
   "license": "MIT",
   "description": "Symfony minimal project with tools for varnish",
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "prefer-stable": true,
   "repositories": [
     {
