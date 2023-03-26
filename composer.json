@@ -5,12 +5,6 @@
   "license": "MIT",
   "description": "Symfony minimal project with tools for varnish",
   "minimum-stability": "dev",
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/nkeneng/httpcachebundle-varnish-config.git"
-    }
-  ],
   "require": {
     "php": ">=8.1",
     "ext-ctype": "*",
@@ -60,6 +54,12 @@
     "symfony/uid": "6.2.*",
     "nkeneng/httpcachebundle-varnish-config": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/nkeneng/httpcachebundle-varnish-config.git"
+    }
+  ],
   "config": {
     "allow-plugins": {
       "php-http/discovery": true,
