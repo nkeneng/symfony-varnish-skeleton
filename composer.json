@@ -54,12 +54,6 @@
     "symfony/uid": "6.2.*",
     "nkeneng/httpcachebundle-varnish-config": "dev-master"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/nkeneng/httpcachebundle-varnish-config.git"
-    }
-  ],
   "config": {
     "allow-plugins": {
       "php-http/discovery": true,
