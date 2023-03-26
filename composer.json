@@ -52,7 +52,7 @@
     "guzzlehttp/guzzle": "^7.4",
     "guzzlehttp/promises": "^1.5",
     "symfony/uid": "6.2.*",
-    "nkeneng/httpcachebundle-varnish-config": "dev-master"
+    "nkeneng/httpcachebundle-varnish-config": "*"
   },
   "config": {
     "allow-plugins": {
@@ -87,7 +87,8 @@
       "assets:install %PUBLIC_DIR%": "symfony-cmd"
     },
     "post-install-cmd": [
-      "@auto-scripts"
+      "@auto-scripts",
+      "php vendor/nkeneng/httpcachebundle-varnish-config/src/setup.php"
     ],
     "post-update-cmd": [
       "@auto-scripts"
