@@ -4,7 +4,8 @@
   "version": "1.0.0-stable",
   "license": "MIT",
   "description": "Symfony skeleton with tools for varnish caching",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "php": ">=8.1",
     "ext-ctype": "*",
